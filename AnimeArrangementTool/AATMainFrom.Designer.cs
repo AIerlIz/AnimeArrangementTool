@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "AATMainFrom";
+            SuspendLayout();
+            // 
+            // AATMainFrom
+            // 
+            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleMode = AutoScaleMode.Dpi;
+            ClientSize = new Size(1582, 853);
+            Name = "AATMainFrom";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "AAT";
+            ResumeLayout(false);
         }
 
         #endregion
